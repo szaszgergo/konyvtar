@@ -1,0 +1,23 @@
+6. Könyvtár
+
+Készítsen programot, amellyel egy könyvtár nyilvántartását valósíthatjuk meg az alábbi funkciókkal:
+
+• A programba a munkatársnak előbb be kell jelentkeznie a felhasználónév és jelszó megadásával, csak úgy végezhet bármilyen műveletet, és láthat bármilyen adatot.
+
+• A programban megtekinthetőek a tagok adatai, és lehetőségünk van új tagot felvenni a név, cím, könyvtárjegy szám megadásával, továbbá lehetőség van tag törlésére is, amennyiben nincs aktuális kölcsönzése.
+
+Hasonlóan megtekinthetjük a könyvek adatait, felvehetünk újat (szerző, cim, példányszám, ISBN szám, kiadás éve megadásával), módosíthatjuk a példányszámot (ügyelve arra, hogy ne legyen kevesebb, mint a kikölcsönzött példányok száma), valamint törölhetünk könyvet, amennyiben egy példánya sincs kikölcsönözve. A listában jelenjen meg a szabad példányszám is számított értékként.
+
+• Legyen lehetőség könyv kikölcsönzésére a tag és a könyv kijelölésével. Csak akkor lehet kölcsönözni, ha még van szabad példány, és egyszerre egy tag csak négy könyvet kölcsönözhet. Külön jelenítsük meg egy tagot kiválasztva az általa kikölcsönzött könyveket. A kikölcsönzött könyveket lehessen visszahozni. A
+
+kölcsönzés és a visszahozás dátuma automatikusan kerül beírásra az adott napra.
+
+Az adatbázis az alábbi adatokat tárolja (ezek még nem feltétlenül a fizikai adattáblák):
+
+⚫ munkatársak (név, azonosító, jelszó);
+
+⚫ tagok (név, cím, könyvtárjegy szám);
+
+⚫ könyvek (szerző, cím, példányszám, ISBN szám, kiadás éve)
+
+kölcsönzések (tag azonosító, könyv azonosító, kikölcsönzés dátuma, visszahozás dátuma).
