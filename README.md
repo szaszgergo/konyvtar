@@ -25,5 +25,5 @@
 
 ## Dokumentáció
 
-[Dokumentáció elérhető erre kattintva!](https://docs.google.com/document/d/1RxBoctzr2r0nDXteaayzhL6WYEA1wmApzi1OEtHE1Y0/edit)
+[Dokumentáció elérhető erre kattintva!]([https://docs.google.com/document/d/1RxBoctzr2r0nDXteaayzhL6WYEA1wmApzi1OEtHE1Y0/edit](https://docs.google.com/document/d/1RxBoctzr2r0nDXteaayzhL6WYEA1wmApzi1OEtHE1Y0/edit?usp=sharing)https://docs.google.com/document/d/1RxBoctzr2r0nDXteaayzhL6WYEA1wmApzi1OEtHE1Y0/edit?usp=sharing)
 
