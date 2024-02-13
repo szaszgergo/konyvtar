@@ -20,6 +20,8 @@ namespace konyvtar
     /// </summary>
     public partial class MainWindow : Window
     {
+        List<string> felhasznalok = new List<string>();
+
         public MainWindow()
         {
             InitializeComponent();
@@ -27,30 +29,40 @@ namespace konyvtar
         }
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
+         
             string filePath = "munkatarsak.txt";
+           
 
-            // Open the file for reading using a StreamReader
-            using (StreamReader sr = new StreamReader(filePath))
+            foreach (var item in File.ReadAllLines(filePath))
             {
-                // Read the entire contents of the file
-                string fileContents = sr.ReadToEnd();
-                List<string> beolvas = new List<string>();
-                foreach (var item in fileContents)
-                {
-                    beolvas.Add(item.ToString());
-                }
-                // Output the contents to the console
-
-             
-               
+                felhasznalok.Add(item);
             }
+            
         }
 
         private void kuld_Click(object sender, RoutedEventArgs e)
         {
-          
+            for (int i = 1; i < felhasznalok.Count; i++)
+            {
+                if (felhasznalok[i].Split(';')[0].ToString() == felhasznalo.Text)
+                {
+                    if (felhasznalok[i].Split(';')[2].ToString() == jelszo.Text)
+                    {
+                        MessageBox.Show("Bentvagy");
+                    }
+                }
+            }
         }
 
-    
+        private void jelszo_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (jelszo.Text != "jelszo")
+            {
+                jelszo.Foreground = Brushes.Black;
+                jelszo.Foreground.Opacity = 0.9;
+                
+            }
+
+        }
     }
 }
