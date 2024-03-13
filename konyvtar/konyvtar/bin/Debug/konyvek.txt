@@ -1,14 +1,11 @@
-szerző; cím; példányszám; ISBN szám; kiadás éve
 George Orwell;1984;10;9780451524935;1949
 J.K. Rowling;Harry Potter and the Philosopher's Stone;8;9780747532743;1997
 F. Scott Fitzgerald;The Great Gatsby;7;9780743273565;1925
 Jane Austen;Pride and Prejudice;6;9780141439518;1813
 Leo Tolstoy;War and Peace;5;9780143035008;1869
-Agatha Christie;Murder on the Orient Express;4;9780007119318;1934
 Mark Twain;Adventures of Huckleberry Finn;8;9780143107323;1884
 Harper Lee;To Kill a Mockingbird;6;9780061120084;1960
 J.R.R. Tolkien;The Lord of the Rings;9;9780261102385;1954
-Stephen King;The Shining;7;9780307743657;1977
 Herman Melville;Moby Dick;5;9781853260087;1851
 Gabriel García Márquez;One Hundred Years of Solitude;6;9780060883287;1967
 Charles Dickens;Great Expectations;7;9780141439563;1861

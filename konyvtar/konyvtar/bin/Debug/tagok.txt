@@ -1,1 +1,1 @@
-név;cím;könyvtárjegy szám;
+asd;asd;0

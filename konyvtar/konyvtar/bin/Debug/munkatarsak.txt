@@ -1,2 +1,5 @@
 név;azonosító;jelszó
 bali;1;ads
+peter;2;qweqweqwe
+anna;3;zxczxczxc
+adam;4;rtyrtyrty
