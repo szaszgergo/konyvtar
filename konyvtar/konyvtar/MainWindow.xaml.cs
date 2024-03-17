@@ -13,7 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
-
 namespace konyvtar
 {
     /// <summary>
@@ -26,19 +25,19 @@ namespace konyvtar
         public MainWindow()
         {
             InitializeComponent();
-
+                    
         }
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-
-            string filePath = "C:/Users/Gergő/Desktop/konyvtar/konyvtar/bin/Debug/munkatarsak.txt";
-
+         
+            string filePath = "munkatarsak.txt";
+           
 
             foreach (var item in File.ReadAllLines(filePath))
             {
                 felhasznalok.Add(item);
             }
-
+            
         }
 
         private void kuld_Click(object sender, RoutedEventArgs e)
@@ -47,24 +46,39 @@ namespace konyvtar
             {
                 if (felhasznalok[i].Split(';')[0].ToString() == felhasznalo.Text)
                 {
-                    if (felhasznalok[i].Split(';')[2].ToString() == jelszo.Text)
-                    {
-                        MessageBox.Show("Bentvagy");
-                    }
+
+                    var newWindow = new MainPanel();
+                    newWindow.Show();
+                    this.Close();
+                    break;
+
+                }
+                else
+                {
+                    
+                    MessageBox.Show("Helytelen felhasználó vagy jelszó");
+                    break;
+
                 }
             }
         }
 
-        private void jelszo_KeyUp(object sender, KeyEventArgs e)
+        private void felhasznalo_KeyDown(object sender, KeyEventArgs e)
         {
-            if (jelszo.Text != "jelszo")
+            if (felhasznalo.Foreground == Brushes.Gray)
+            {
+                felhasznalo.Foreground = Brushes.Black;
+                felhasznalo.Text = "";
+            }
+        }
+
+        private void jelszo_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (jelszo.Foreground == Brushes.Gray)
             {
                 jelszo.Foreground = Brushes.Black;
-                jelszo.Foreground.Opacity = 0.9;
-
+                
             }
-
         }
     }
 }
-

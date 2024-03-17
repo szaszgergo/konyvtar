@@ -17,10 +17,10 @@
             </Grid.RowDefinitions>
 
             <Label Grid.Row="0" Content="Felhasználónév:" FontSize="20" Height="80" Margin="132,0,131,1" />
-            <TextBox x:Name="felhasznalo" Text="felhasznalo" Grid.Row="1"  Opacity ="0.50" FontSize="20"  Height="80"   Width="537" HorizontalAlignment="Center" Margin="0,1,0,79" Grid.RowSpan="2"/>
-            <Label Grid.Row="2" Content="Jelszó:"  FontSize="20" Margin="132,0,132,0"/>
-            <TextBox x:Name="jelszo" Text="jelszo"  FontSize="20" Grid.Row="3" Height="80"  Opacity ="0.50"   Width="537" HorizontalAlignment="Center" Margin="0,1,0,79" KeyUp="jelszo_KeyUp" Grid.RowSpan="2" ></TextBox>
-            <Button x:Name="kuld" Content="Elküldés"  FontSize="20"  Grid.Row="4" Height="80"   Width="536" HorizontalAlignment="Center" Click="kuld_Click"/>
+            <TextBox x:Name="felhasznalo" BorderThickness="1" BorderBrush="Black" Text="felhasznalo" Grid.Row="1"   FontSize="20"  Height="80"   Width="529" HorizontalAlignment="Left" Margin="132,1,0,0"  Foreground="Gray" KeyDown="felhasznalo_KeyDown"/>
+            <Label Grid.Row="2" Content="Jelszó:"  FontSize="20" Margin="132,0,131,0"/>
+            <PasswordBox x:Name="jelszo"   BorderThickness="1" BorderBrush="Black"  FontSize="20" Grid.Row="3" Height="80"  Width="529" HorizontalAlignment="Left" Margin="132,1,0,0" Foreground="Gray" KeyDown="jelszo_KeyDown" ></PasswordBox>
+            <Button x:Name="kuld" Content="Elküldés"  FontSize="20"  Grid.Row="4"   Width="529" HorizontalAlignment="Left" Click="kuld_Click" Margin="132,5,0,-7"/>
 
         </Grid>
     </StackPanel>

@@ -1,2 +1,0 @@
-név;azonosító;jelszó
-bali;1;ads

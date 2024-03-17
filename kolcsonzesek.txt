@@ -1,1 +1,0 @@
-tag azonosító;könyv azonositó;kikölcsözés dátuma;visszahozás dátuma
