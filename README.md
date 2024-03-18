@@ -6,6 +6,7 @@
 ## Képernyőképek
 
 ![App Screenshot](https://github.com/szaszgergo/konyvtar/blob/main/konyvtar_login.png?raw=true)
+![App Screenshot](https://github.com/szaszgergo/konyvtar/blob/main/konyvtar_dashboard.png?raw=true)
 
 ## A projektben felhasznált színek
 
