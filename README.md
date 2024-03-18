@@ -12,9 +12,9 @@
 | Szín             | Hex                                                                |
 | ---------------- | ------------------------------------------------------------------ |
 | Zöld szín     | ![#008000](https://via.placeholder.com/10/008000?text=+) #008000 |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+| Fekete        | ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
+| Szürke        | ![#e0e0e0](https://via.placeholder.com/10/e0e0e0?text=+) #e0e0e0 |
+| Fehér         | ![#FFFFFF](https://via.placeholder.com/10/ffffff?text=+) #FFFFFF |
 
 
 ## Készítők
