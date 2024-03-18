@@ -22,8 +22,3 @@
 
 - [@szaszgergo](https://github.com/szaszgergo)
 - [@juhaszbalazs2005](https://github.com/juhaszbalazs2005)
-
-
-## Dokumentáció
-
-[Dokumentáció elérhető erre kattintva!](https://docs.google.com/document/d/1RxBoctzr2r0nDXteaayzhL6WYEA1wmApzi1OEtHE1Y0/edit?usp=sharing)
